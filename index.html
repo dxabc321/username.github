@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龚大勋的个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">龚大勋<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> 首页</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> 关于我</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> 博客</a></li>
+                <li><a href="projects.html"><i class="fas fa-code"></i> 项目</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> 联系</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="greeting">👋 你好，我是</h3>
+                    <h1 class="name">龚大勋</h1>
+                    <h2 class="title">前端开发工程师 & 技术博主</h2>
+                    <p class="description">
+                        热爱编程、分享技术、探索创新。我专注于Web前端开发，喜欢用代码创造美观实用的界面。
+                        在这里，我将分享我的学习笔记、技术经验和项目实践。
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">联系我</a>
+                        <a href="projects.html" class="btn btn-secondary">查看项目</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://weibo.com" target="_blank"><i class="fab fa-weibo"></i></a>
+                        <a href="https://zhihu.com" target="_blank"><i class="fab fa-zhihu"></i></a>
+                        <a href="mailto:liming@example.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 技能展示 -->
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>前端开发</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue, TypeScript</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>后端开发</h3>
+                    <p>Node.js, Express, MongoDB, REST API, Python</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>移动开发</h3>
+                    <p>React Native, Flutter, 响应式设计, PWA</p>
+                    <div class="skill-level">
+                        <div class="level-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新博客 -->
+    <section class="blog-preview">
+        <div class="container">
+            <h2 class="section-title">最新博客文章</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="前端开发">
+                        <span class="blog-category">前端</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="blog.html#post1">JavaScript ES2023新特性详解</a></h3>
+                        <p>深入探讨JavaScript ES2023的最新特性，包括新的数组方法、语法糖和性能优化。</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 2024-06-15</span>
+                            <span><i class="far fa-clock"></i> 8分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        
+                        <span class="blog-category">React</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="blog.html#post2">React性能优化最佳实践</a></h3>
+                        <p>分享React应用性能优化的实用技巧，包括代码分割、懒加载和状态管理优化。</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 2024-06-10</span>
+                            <span><i class="far fa-clock"></i> 12分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1065&q=80" alt="Web开发">
+                        <span class="blog-category">Web开发</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="blog.html#post3">如何构建现代化的个人博客</a></h3>
+                        <p>从设计到部署，详细讲解如何构建一个现代化的个人博客网站。</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 2024-06-05</span>
+                            <span><i class="far fa-clock"></i> 10分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="blog.html" class="btn btn-outline">查看所有文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我简介 -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">关于我</h2>
+                    <p>我是一名热爱技术的开发者，拥有3年前端开发经验。毕业于XX大学计算机科学专业，目前在一家科技公司担任前端开发工程师。</p>
+                    <p>我热爱学习新技术，喜欢将复杂的问题简单化。在我的博客中，我会分享我在工作中遇到的问题和解决方案，以及我对技术趋势的思考。</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>50+</h3>
+                            <p>技术博客</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>项目作品</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>3年</h3>
+                            <p>开发经验</p>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">了解更多</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="工作环境">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>李明个人博客</h3>
+                    <p>分享技术，记录成长，探索创新。</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="projects.html">项目</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> liming@example.com</li>
+                        <li><i class="fas fa-phone"></i> +86 138-XXXX-XXXX</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 北京市海淀区</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> 李明个人博客. 保留所有权利.</p>
+                <p>本网站由HTML、CSS和JavaScript构建，已部署到GitHub Pages。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
